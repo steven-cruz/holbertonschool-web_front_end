@@ -1,0 +1,29 @@
+/* makes scrolling as smooth as possible */
+html{
+    scroll-behavior: smooth;
+}
+
+/* sets the foreground color of the body tag to #161616 */
+body{
+    color: #161616;
+}
+
+/* sets the foreground color of the anchor tag to #161616 */
+a{
+    color: #161616;
+}
+
+/* hide the content of this class */
+.visually-hidden{
+    display: none;
+  }
+
+/* all foreground colors in the class are sent to # d73953 */
+.card-category{
+    color: #d73953;
+}
+
+/* all foreground colors in the class are sent to # d73953 */
+.section-tagline{
+    color: #d73953;
+}
