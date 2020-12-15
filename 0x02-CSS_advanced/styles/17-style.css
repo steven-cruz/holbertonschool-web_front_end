@@ -54,35 +54,23 @@ a:active{
 }
 
 .section{
-    padding-left: var(--section-padding);
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
-    padding-right: var(--section-padding);
+    padding: var(--section-padding);
 }
 
 /* Tasks #11 */
 .section-header{
     text-align: var(--section-header-align);
-    padding-right: var(--section-header-padding);
-    padding-left: var(--section-header-padding);
-    padding-top: var(--section-header-padding);
-    padding-bottom: var(--section-header-padding);
+    padding: var(--section-header-padding);
 }
 
 /* Tasks #17 */
 .section-body{
-    padding-left: var(--section-body-padding);
-    padding-top: var(--section-body-padding);
-    padding-bottom: var(--section-body-padding);
-    padding-right: var(--section-body-padding);
+    padding: var(--section-body-padding);
 }
 
 /* Tasks #17 */
 .section-footer{
-    padding-left: var(--section-footer-padding);
-    padding-top: var(--section-footer-padding);
-    padding-bottom: var(--section-footer-padding);
-    padding-right: var(--section-footer-padding);
+    padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
 }
 
