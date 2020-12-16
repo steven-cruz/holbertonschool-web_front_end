@@ -201,7 +201,7 @@ a:active{
 /* Tasks #19 */
 ul.row{
     margin: 0;
-    padding: none;
+    padding: 0;
     list-style: none;
 }
 
@@ -223,6 +223,6 @@ ul.row{
     color: var(--text-color);
 }
 
-ul.footer{
+.footer ul{
     text-align: right;
 }
