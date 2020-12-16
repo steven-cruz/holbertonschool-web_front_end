@@ -255,3 +255,22 @@ ul.row{
 .social-link > svg{
     fill: var(--text-color);
 }
+
+/* tasks #24 */
+/* Add background and hover state to services */
+.card-services .card-title{
+    margin: 0;
+}
+  
+/* target a that is inside card-services */
+.card-services a{
+   display: block;
+   padding: 2rem;
+   background-color: var(--color-light-grey);
+}
+  
+.card-services a:hover{
+   color: var(--color-white);
+   background-color: var(--color-primary);
+   text-decoration: none;
+}
