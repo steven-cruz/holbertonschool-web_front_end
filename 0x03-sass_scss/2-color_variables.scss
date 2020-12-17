@@ -1,0 +1,16 @@
+/* Color assignment with variables */
+$color-dark-gray: #3D3D3D;
+$bgColor-gray: #6D6D6D;
+
+body{
+    color: $color-dark-gray;
+    background-color: $bgColor-gray;
+}
+
+p{
+    color: $color-dark-gray;
+}
+
+h2{
+    background-color: $bgColor-gray;
+}
