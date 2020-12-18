@@ -1,0 +1,6 @@
+/* A class is created for each name in the imported list (11-photos.scss) */
+@import "11-photos.scss";
+@each $var in $list-names {
+    .photo-#{$var} {
+        background: image-url("photos/#{$var}.jpg") no-repeat; }   
+}
