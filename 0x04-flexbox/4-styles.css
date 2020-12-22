@@ -188,7 +188,8 @@
   }
 
   ul.row {
-    margin: 0;
+    /* Tasks #4 replace de current margin (0) with -1rem */
+    margin: -1rem;
     padding: 0;
     list-style: none;
   }
