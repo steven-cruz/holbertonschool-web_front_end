@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8" />
+        <!-- latest version of Jquery (jQuery Core 3.5.1) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+
+        <!-- contains a function that creates a p tag and adds it to the body -->
+        <script type="application/javascript">
+            $(document).ready(function(){
+                function createFamilyTree(){
+                    const table = `
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td><strong>Firstname</strong></td>
+                                    <td><strong>Lastname</strong></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Guillaume</td>
+                                    <td>Salva</td>
+                                </tr>
+                                <tr>
+                                    <td>Paulette</td>
+                                    <td>Salva</td>
+                                </tr>
+                                <tr>
+                                    <td>Antoine</td>
+                                    <td>Salva</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    `;
+                    $("body").append(table);
+                };
+                createFamilyTree();
+            });
+        </script>
+        <title>Task 2</title>
+
+    </head>
+
+    <body>
+
+    </body>
+
+</html>
